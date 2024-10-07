@@ -8,8 +8,8 @@ Project Overview
 This project implements a Transformer model for the task of machine translation using PyTorch. It utilizes the WMT14 English-German dataset and a custom Transformer architecture to translate English sentences into German.
 
 Key Features:
-Custom Transformer Model: Implements a multi-head attention mechanism, positional encoding, and encoder-decoder structure from scratch.
-Dataset: Uses the WMT14 dataset for training.
-Training: The model is trained using a subset of the dataset (5%) to manage computational resources and time.
-Translation: After training, the model can be used to translate English sentences to German.
-Tokenization: Uses AutoTokenizer from Hugging Face's Transformers library for tokenizing both English and German sentences.
+ - Custom Transformer Model: Implements a multi-head attention mechanism, positional encoding, and encoder-decoder structure from scratch.
+ - Dataset: Uses the WMT14 dataset for training.
+ - Training: The model is trained using a subset of the dataset (5%) to manage computational resources and time.
+ - Translation: After training, the model can be used to translate English sentences to German.
+ - Tokenization: Uses AutoTokenizer from Hugging Face's Transformers library for tokenizing both English and German sentences.
