@@ -13,3 +13,6 @@ Key Features:
  - Training: The model is trained using a subset of the dataset (5%) to manage computational resources and time.
  - Translation: After training, the model can be used to translate English sentences to German.
  - Tokenization: Uses AutoTokenizer from Hugging Face's Transformers library for tokenizing both English and German sentences.
+
+# Results
+Due to the extensive time required for training (with one epoch estimated to take approximately 129 hours), I am currently unable to complete the full training process. However, I have provided the complete code in this repository, which can be used to train the model further. I encourage anyone interested to run the training or fine-tune the model based on their available resources.
