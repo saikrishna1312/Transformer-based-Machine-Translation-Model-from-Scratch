@@ -1,5 +1,5 @@
 # Transformer based Machine Translation Model from Scratch
-# ""ATTENTION IS ALL YOU NEED"
+# "ATTENTION IS ALL YOU NEED"
 This research paper "Attention is all you need" by Vaswani et al (https://arxiv.org/pdf/1706.03762) was the paper which made me curious and fascinated and this lead to my interest in Natural Language Processing. As a tribute I am trying to implement the whole model from scratch.  
 
 This repository contains a custom implementation of a Transformer model built from scratch using PyTorch. I have used this model for Machine Translation (English-to-German), using the WMT14 dataset. The project includes training a Transformer model from scratch, fine-tuning, and generating translations for English sentences into German. You can use it for various tasks like Machine Translation, Text classification, Text generization and summarization, etc.
